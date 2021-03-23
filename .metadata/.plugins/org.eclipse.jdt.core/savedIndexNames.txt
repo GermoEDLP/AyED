@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/media/germob/Windows/Users/Ger y Nori/Documents/German/Facultad/AyED/Practicas/.metadata/.plugins/org.eclipse.jdt.core
+646308851.index
+3447623317.index
+2233849252.index

@@ -1,0 +1,15 @@
+package practica1b;
+
+public class ej2 {
+	
+	public static int[] crearArrayDeMultiplos(int n){
+		int[] array = new int[n];
+		
+		for(int i = 0; i < n; i++) {
+			array[i] = n*i;
+		}
+		
+		return array;
+	}
+
+}

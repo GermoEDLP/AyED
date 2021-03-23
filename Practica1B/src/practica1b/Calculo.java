@@ -1,6 +1,11 @@
 package practica1b;
 
 public class Calculo {
+	
+	private static int minCalc;
+	private static int maxCalc;
+	private static float promCalc;
+	
 	public static Datos calcular(int[] datos) {
 		int max = 0, min = 9999; float cont = 0, total = 0;
 		for (int i = 0; i < datos.length; i++) {
@@ -46,10 +51,32 @@ public class Calculo {
 			total+=nums[i];
 		}
 		float prom = total/cont;
-		Datos datos = new Datos();
-		datos.setMax(max);
-		datos.setMin(min);
-		datos.setProm(prom);
-		System.out.println("Maximo: "+datos.getMax()+" | Minimo: "+datos.getMin()+" | Promedio: "+datos.getProm());
+		Calculo.setMinCalc(min);
+		Calculo.setMaxCalc(max);
+		Calculo.setPromCalc(prom);
+	}
+
+	public static int getMinCalc() {
+		return minCalc;
+	}
+
+	public static void setMinCalc(int minCalc) {
+		Calculo.minCalc = minCalc;
+	}
+
+	public static int getMaxCalc() {
+		return maxCalc;
+	}
+
+	public static void setMaxCalc(int maxCalc) {
+		Calculo.maxCalc = maxCalc;
+	}
+
+	public static float getPromCalc() {
+		return promCalc;
+	}
+
+	public static void setPromCalc(float promCalc) {
+		Calculo.promCalc = promCalc;
 	}
 }

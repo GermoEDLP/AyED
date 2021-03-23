@@ -1,0 +1,16 @@
+package practica1b;
+
+public class ejercicios {
+	public static void main(String[] parametro) {
+        
+        /* Ejercicio 1*/
+        ej1.entreNumerosFor(2, 5);
+        ej1.entreNumerosWhile(2, 5);
+        ej1.entreNumerosSinLoop(2, 5);
+        
+        
+    }
+	
+	
+	
+}
