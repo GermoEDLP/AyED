@@ -1,0 +1,4 @@
+## Ejercicio 2.4
+
+* __a)__  La diferencia mas importante entre la ListaEnlazadaGenerica y la ListaDeEnterosEnlazada, es que la segunda solo puede tarabajar con valores de tipo Entero primitivo (int), pero la segunda puede aceptar cualquier tipo de dato una vez se referencie al crear la instancia de la clase.
+* __b)__  El nodo generico se compone de un dato de tipo generico (es decir que el tipo de dato será definido al instanciar el objeto ListaGenerica) y un siguinete que tambien es un nodo generico (apunta a la dirección del siguiente nodo. Para instanciarlo, al igual que con la clase ListaGenerica, se le debe aclarar el tipo de dato que utilizará.
