@@ -1,3 +1,10 @@
+## Ejercicio 2.1
+Si se puede realizar los ejercicios del punto 1 utilizando la ListaGenerica, solo deberíamos indicar el tipo de dato que va a guardar, en este caso Intigers
+~~~
+ListaEnlazadaGenerica<Intiger> l = new ListaEnlazadaGenerica<Intiger>();
+~~~
+
+
 ## Ejercicio 2.4
 
 * __a)__  La diferencia mas importante entre la ListaEnlazadaGenerica y la ListaDeEnterosEnlazada, es que la segunda solo puede tarabajar con valores de tipo Entero primitivo (int), pero la segunda puede aceptar cualquier tipo de dato una vez se referencie al crear la instancia de la clase.
