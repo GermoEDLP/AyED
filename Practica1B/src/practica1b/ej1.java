@@ -16,65 +16,9 @@ public class ej1 {
 	};
 	
 	public static void entreNumerosSinLoop(int a, int b){		
-		if(a<=b) {
-			System.out.println(a);
-			a++;
-			if(a<=b) {
-				System.out.println(a);
-				a++;
-				if(a<=b) {
-					System.out.println(a);
-					a++;
-					if(a<=b) {
-						System.out.println(a);
-						a++;
-						if(a<=b) {
-							System.out.println(a);
-							a++;
-							if(a<=b) {
-								System.out.println(a);
-								a++;
-								if(a<=b) {
-									System.out.println(a);
-									a++;
-									if(a<=b) {
-										System.out.println(a);
-										a++;
-										if(a<=b) {
-											System.out.println(a);
-											a++;
-											if(a<=b) {
-												System.out.println(a);
-												a++;
-												if(a<=b) {
-													System.out.println(a);
-													a++;
-													if(a<=b) {
-														System.out.println(a);
-														a++;
-														if(a<=b) {
-															System.out.println(a);
-															a++;
-															if(a<=b) {
-																System.out.println(a);
-																a++;
-																if(a<=b) {
-																	System.out.println(a);
-																	a++;
-																}
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
+		System.out.println(a);
+		if(a<b) {
+			ej1.entreNumerosSinLoop(a+1, b);
 		}
 	};
 

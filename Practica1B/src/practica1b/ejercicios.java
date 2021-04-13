@@ -9,7 +9,6 @@ public class ejercicios {
         /* Ejercicio 1*/
         // ej1.entreNumerosFor(2, 5);
         // ej1.entreNumerosWhile(2, 5);
-        /*En el caso de este inciso, no puede haber una diferencia mayor a 15 entre numeros*/
         // ej1.entreNumerosSinLoop(2, 5);
         
 		
