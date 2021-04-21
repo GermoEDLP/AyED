@@ -24,4 +24,8 @@ public class ColaGenerica<T> {
 	public boolean esVacia() {
 		return cola.tamanio() == 0;
 	}
+	
+	public int getTamanio() {
+		return cola.tamanio();
+	}
 }
